@@ -1,0 +1,20 @@
+#游戏控制
+action = input()
+match action:
+    case "上"|"w"|"W":
+        print("角色向上移动")
+    case "下"|"s"|"S":
+        print("角色向下移动")
+    case "左"|"a"|"A":
+        print("角色向左移动")
+    case "右"|"d"|"D":
+        print("角色向右移动")
+    case "跳"|" ":
+        print("角色跳跃")
+    case "攻击"|"j"|"3":
+        print("角色发动攻击")
+    case "退出"|"esc"|"ESC":
+        print("角色退出游戏")
+    case _:
+        print("输入无效")
+
