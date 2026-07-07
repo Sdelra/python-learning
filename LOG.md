@@ -21,9 +21,9 @@
 - int()强制转换
 
 **额外收获**：
-1.查看数据类型除了type()，还有isinstance(数据,类型)，返回布尔值。
-2.计算机底层二进制无法准确表示所有小数，则涉及浮点数运算可能损失精度。
-3.用//计算结果虽取整但类型与原参与运算数值类型一致。eg:85.0//10=8.0
+- 查看数据类型除了type()，还有isinstance(数据,类型)，返回布尔值。
+- 计算机底层二进制无法准确表示所有小数，则涉及浮点数运算可能损失精度。
+- 用//计算结果虽取整但类型与原参与运算数值类型一致。eg:85.0//10=8.0
 
 **明日计划**：P22-P35流程控制语句（if语句、match模式匹配、while循环、for循环、嵌套循环）
 
@@ -51,10 +51,11 @@
 - break和continue缩进应在循环内部
 
 **额外收获**：
-1.range(start,end,step)左包含右不包含。
-2.shift+回车 可以无视光标位置快速创建下一行。
-3.match模式匹配中case后可以直接加条件判断 eg:case "/" if num2 != 0
-4.生成随机数用 import random
+- range(start,end,step)左包含右不包含。
+- shift+回车 可以无视光标位置快速创建下一行。
+- match模式匹配中case后可以直接加条件判断 eg:case "/" if num2 != 0
+- 生成随机数用 import random
+
               random_number = random.randint(num1,num2) #左右都包含
 
 **明日计划**：P36-P56数据容器（列表list、字符串str、元组tuple、集合set、字典dict）
