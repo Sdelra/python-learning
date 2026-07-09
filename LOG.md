@@ -100,3 +100,30 @@
 **明日计划**：P57-P70函数基础+进阶（函数的定义与调用、参数与返回值、变量作用域（局部vs全局）、默认参数与不定长参数的使用场景）
 
 ---
+
+### 7月9日（第4天）
+
+**学习内容**：P57-P70函数基础+进阶（函数的定义与调用、参数与返回值、变量作用域（局部vs全局）、默认参数与不定长参数的使用场景）
+
+**今日代码**：约60行
+- 函数定义调用+不定长参数函数+if条件+函数解释[calc_statistics.py](./day4/calc_statistics.py)
+- 匿名函数[lambda_str_sort.py](./day4/lambda_str_sort.py)
+- 函数递归[recursion_factorial.py](./day4/recursion_factorial.py)
+- 函数定义调用+if条件+函数解释[order_calc_args.py](./day4/order_calc_args.py)
+
+**遇到问题**：
+- 有些函数的用法知道的不全，例如lambda_str_sort.py文件中sort()的使用
+
+**解决方案**：
+- ctrl+单击 查看函数较完整的使用规则
+
+**额外收获**：
+- 传参方式中，位置参数在前，关键字参数在后 eg:a = b(wan,34,city="北京”，gender="女")
+- 默认参数放在没有设置默认值的参数的后面 eg:def a(name,age,gender,city="北京")
+- round(数值，保留小数位数)
+- 不定长参数中，位置传参用*args,合并封装为元组。关键字传参用**kwargs,合并封装为字典。
+- 匿名函数 变量名=lambda 参数列表 : 函数体
+
+**明日计划**：P71-P76类型注解+模块（函数类型注解、导入、自定义、包）
+
+---
